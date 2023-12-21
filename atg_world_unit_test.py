@@ -4,6 +4,6 @@ def test_website_loads_properly():
     assert response.status_code == 200
 def test_website_loads_properly():
     print("Starting website load test...")
-    response = requests.get("https://atg.world")
+    response = requests.get("http://atg.world")
     assert response.status_code == 200
     print("Website loaded successfully!")
